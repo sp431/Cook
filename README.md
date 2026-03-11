@@ -1,14 +1,4 @@
-# 程序员做饭指南
-
-
-## 本地部署
-
-如果需要在本地部署菜谱 Web 服务，可以在安装 Docker 后运行下面命令：
-
-```bash
-docker pull ghcr.io/anduin2017/how-to-cook:latest
-docker run -d -p 5000:80 ghcr.io/anduin2017/how-to-cook:latest
-```
+# 做饭指南
 
 
 ## 如何贡献
