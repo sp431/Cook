@@ -21,4 +21,4 @@ RUN mkdocs build
 FROM nginx:1-alpine
 COPY --from=python-env /app/site /usr/share/nginx/html
 
-LABEL org.opencontainers.image.source="https://github.com/Anduin2017/HowToCook"
+LABEL org.opencontainers.image.source="https://github.com/sp431/Cook"
